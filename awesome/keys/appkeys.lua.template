@@ -1,0 +1,16 @@
+
+--
+
+local awful = require('awful')
+local gtable = require('gears.table')
+
+appkeys = gtable.join(
+  -- Standard programs
+  awful.key({ modkey }, "Return",
+    function()
+      awful.spawn(terminal)
+    end,
+    {description = "open a terminal", group = "apps"})
+  
+
+  )
