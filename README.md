@@ -1,2 +1,2 @@
-# dorfiles
-My Personal Dot Files [W.I.P]
+# dotfiles
+[W.I.P]
